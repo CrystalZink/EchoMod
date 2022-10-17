@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model":  "echoextras:block/echo_ore" }
+  }
+}

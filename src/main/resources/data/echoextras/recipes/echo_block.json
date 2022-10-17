@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+  "###",
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": {
+    "item":"echoextras:echo_gem"
+  }
+ },
+ "result": {
+  "item": "echoextras:echo_block"
+ }
+}

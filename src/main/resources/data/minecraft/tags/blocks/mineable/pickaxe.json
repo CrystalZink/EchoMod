@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "echoextras:echo_ore",
+    "echoextras:echo_block"
+  ]
+}

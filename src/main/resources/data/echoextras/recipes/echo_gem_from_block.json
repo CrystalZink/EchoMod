@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "echoextras:echo_block"
+    }
+  ],
+  "result": {
+    "item": "echoextras:echo_gem",
+    "count": 9
+  }
+}
