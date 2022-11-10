@@ -23,7 +23,7 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, EchoBlocks.ECHO_ORE.get().defaultBlockState())));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> ECHO_ORE = CONFIGURED_FEATURES.register("echo_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ECHO_ORES.get(),4)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ECHO_ORES.get(),6)));
 
     public static void register(IEventBus eventBus) {CONFIGURED_FEATURES.register(eventBus);
     }
