@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "echoextras:echo_gem"
+    },
+    "title": "Otherworldly Jewel...",
+    "description": "Obtain an Echo Gem",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/shiny_gear",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoextras:echo_gem"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "echoextras:echo_block"
+    },
+    "title": "You're a failure.",
+    "description": "Have a Netherite, Diamond and Echo hoe at the same time, and then throw a brick at your PC",
+    "frame": "challenge",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "echoextras:get_echo_hoe",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoextras:echo_hoe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_hoe"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
+          }
+          ],
+            "rewards": {
+              "experience": 150
+            }
+          }
+       }
+     }
+   }

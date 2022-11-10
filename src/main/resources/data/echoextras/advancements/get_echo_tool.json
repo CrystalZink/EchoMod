@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "echoextras:echo_pickaxe"
+    },
+    "title": "Super Speed!",
+    "description": "Obtain any Echo Tool",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "echoextras:get_echo_gem",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoextras:echo_sword",
+              "echoextras:echo_pickaxe",
+              "echoextras:echo_axe",
+              "echoextras:echo_shovel",
+              "echoextras:echo_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
