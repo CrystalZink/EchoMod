@@ -2,10 +2,9 @@
   "item.echoextras.echo_gem": "Echo Gem",
     "item.echoextras.echo_sword": "Echo Sword",
 	"item.echoextras.echo_pickaxe": "Echo Pickaxe",
+	"item.echoextras.echo_axe": "Echo Axe",
 	"item.echoextras.echo_shovel": "Echo Shovel",
-	"item.echoextras.echo_scythe": "Echo Scythe",
-	"item.echoextras.echo_broadsword": "Echo Broadsword",
-	"item.echoextras.echo_battleaxe": "Echo Battle Axe",
+	"item.echoextras.echo_hoe": "Echo Hoe",
 
   "block.echoextras.echo_ore": "Echo Ore",
   "block.echoextras.echo_block": "Echo Block"

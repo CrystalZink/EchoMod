@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-      "layer0": "echoextras:item/echo_scythe"
+      "layer0": "echoextras:item/echo_hoe"
   }
 }

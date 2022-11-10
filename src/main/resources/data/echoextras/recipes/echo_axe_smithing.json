@@ -4,9 +4,9 @@
     "item": "echoextras:echo_gem"
   },
   "base": {
-    "item": "minecraft:diamond_sword"
+    "item": "minecraft:diamond_axe"
   },
   "result": {
-    "item": "echoextras:echo_broadsword"
+    "item": "echoextras:echo_axe"
   }
 }
