@@ -17,11 +17,11 @@ public class EchoItems {
     public static final RegistryObject<Item> ECHO_SWORD = ITEMS.register("echo_sword",
             () -> new SwordItem(Tier.ECHO, 7, -2.6f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
     public static final RegistryObject<Item> ECHO_PICKAXE = ITEMS.register("echo_pickaxe",
-            () -> new PickaxeItem(Tier.ECHO, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+            () -> new PickaxeItem(Tier.ECHO, 5, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> ECHO_AXE = ITEMS.register("echo_axe",
             () -> new AxeItem(Tier.ECHO, 9, -3.2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> ECHO_SHOVEL = ITEMS.register("echo_shovel",
-            () -> new ShovelItem(Tier.ECHO, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+            () -> new ShovelItem(Tier.ECHO, 5, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> ECHO_HOE = ITEMS.register("echo_hoe",
             () -> new HoeItem(Tier.ECHO, 0, 0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
