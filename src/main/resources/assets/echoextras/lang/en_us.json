@@ -6,6 +6,9 @@
 	"item.echoextras.echo_shovel": "Echo Shovel",
 	"item.echoextras.echo_hoe": "Echo Hoe",
 
+  "item.echoextras.echo_necklace": "Echo Necklace",
+
   "block.echoextras.echo_ore": "Echo Ore",
-  "block.echoextras.echo_block": "Echo Block"
+  "block.echoextras.echo_block": "Echo Block",
+  "block.echoextras.echo_gem_block": "Echo Gem Block"
 }

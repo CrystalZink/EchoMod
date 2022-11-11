@@ -1,7 +1,9 @@
 package net.icycrystal.echoextras.item;
 
 import net.icycrystal.echoextras.EchoExtras;
+import net.icycrystal.echoextras.EchoMaterials;
 import net.icycrystal.echoextras.Tier;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,6 +26,10 @@ public class EchoItems {
             () -> new ShovelItem(Tier.ECHO, 5, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> ECHO_HOE = ITEMS.register("echo_hoe",
             () -> new HoeItem(Tier.ECHO, 0, 0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> ECHO_NECKLACE = ITEMS.register("echo_necklace",
+            () -> new ArmorItem(EchoMaterials.ECHOGEM, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

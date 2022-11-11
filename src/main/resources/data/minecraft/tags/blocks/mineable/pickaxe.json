@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "echoextras:echo_ore",
-    "echoextras:echo_block"
+    "echoextras:echo_block",
+    "echoextras:echo_gem_block"
   ]
 }

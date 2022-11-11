@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "echoextras:echo_necklace"
+    },
+    "title": "A Mystical Artifact",
+    "description": "Obtain an Echo Necklace",
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "echoextras:echo_necklace"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

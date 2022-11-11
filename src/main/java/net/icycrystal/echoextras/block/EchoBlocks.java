@@ -26,6 +26,9 @@ public class EchoBlocks {
     public static final RegistryObject<Block> ECHO_BLOCK = registerBlock ("echo_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.NETHERITE_BLOCK)
                     .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ECHO_GEM_BLOCK = registerBlock ("echo_gem_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL)
+                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

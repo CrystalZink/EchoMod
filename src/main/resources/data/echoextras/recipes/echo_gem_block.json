@@ -7,10 +7,10 @@
  ],
  "key": {
   "#": {
-    "item":"minecraft:echo_shard"
+    "item":"echoextras:echo_gem"
   }
  },
  "result": {
-  "item": "echoextras:echo_block"
+  "item": "echoextras:echo_gem_block"
  }
 }

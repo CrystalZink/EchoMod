@@ -27,9 +27,7 @@ displayName="Echo Extras" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="echoextras.png" #optional
-# A text field displayed in the mod UI
-credits="Example mod go brrr" #optional
+logoFile="pack.png" #optional
 # A text field displayed in the mod UI
 authors="IcyCrystal" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,7 +40,7 @@ authors="IcyCrystal" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds some extra Echo Shard uses!
+Adds some extra Echo Shard uses
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.echoextras]] #optional
